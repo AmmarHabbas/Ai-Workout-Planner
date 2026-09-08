@@ -1,0 +1,30 @@
+name: workout_ai_planner
+description: A Flutter workout app with AI-generated diet and exercise plans.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.5
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+  lottie: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/ 
